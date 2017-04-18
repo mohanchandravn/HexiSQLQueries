@@ -233,7 +233,7 @@ Insert into HEXICLOUD.RULE_CONFIGURATION (RULE_KEY,RULE_TYPE,RULE_VALUE,IS_UPDAT
   <!-- Email Container : BEGIN -->
   <!-- This table wraps the whole body email within it''s width (600px), sets the background color (white) and border (thin, gray, solid) -->','Y',null,'CUSTOMER_WELCOME_EMAIL_BODY2','textarea');
 
-  Insert into HEXICLOUD.RULE_CONFIGURATION (RULE_KEY,RULE_TYPE,RULE_VALUE,IS_UPDATABLE,JOB_ID,UI_LABEL,INPUT_FIELD_TYPE) values ('CUSTOMER_WELCOME_EMAIL_BODY3','CUS_WEL_BODY','    <table border="0" width="90%" cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff" style="border: 1px solid #e5e5e5;margin: auto;" class="email-container">
+  Insert into HEXICLOUD.RULE_CONFIGURATION (RULE_KEY,RULE_TYPE,RULE_VALUE,IS_UPDATABLE,JOB_ID,UI_LABEL,INPUT_FIELD_TYPE) values ('CUSTOMER_WELCOME_EMAIL_BODY3','CUS_WEL_BODY','         <table border="0" width="90%" cellpadding="0" cellspacing="0" align="center" bgcolor="#ffffff" style="border: 1px solid #e5e5e5;margin: auto;" class="email-container">
 
       <!-- Full Width, Fluid Column : BEGIN -->
       <tr>
@@ -248,11 +248,13 @@ Insert into HEXICLOUD.RULE_CONFIGURATION (RULE_KEY,RULE_TYPE,RULE_VALUE,IS_UPDAT
                 <b>The HexiCloud portal will enable you to be more efficient throughout the adoption of your services.</b>
                 <br><br>
                 <b>Please go to <a href="https://www.hexicloud.com">HexiCloud.com</a> and start your Cloud Journey today, using the following for login:</b>
-                <br></br>
+                <br><br>
                 &nbsp;&nbsp; <b>Username: </b><<USER_ID>>
                 <br>
                 &nbsp;&nbsp; <b>Password: </b><<PASSWORD>>
                 <br><br>
+				<b>After you have logged in you will be asked to enter a new password.</b>
+				<br><br>
                 After you log in and confirm your role within the organization, you’ll be guided through various <b>intuitive screens</b> designed to make your first approach to IaaS services much easier:
                 <ul>
                   <li><b>#1</b>: You’ll be able to check the status of your current Cloud environment</li>
@@ -261,7 +263,7 @@ Insert into HEXICLOUD.RULE_CONFIGURATION (RULE_KEY,RULE_TYPE,RULE_VALUE,IS_UPDAT
                 </ul>
                 At the end of this short and comprehensive onboarding stage, the Dashboard page will allow you not only to monitor your services, but will also give you access to our Use Case discovery. After you have on-boarded we will contact you and request you complete a questionnaire to complete.
                 <br><br>
-                We look forward to engaging with you during your experience thus ensuring we provide you with an innovative and relevant experience.
+                We look forward to engaging with you to ensure that we provide you with an innovative and relevant experience.
                 <br><br>
                 EMEA IaaS Customer Success
               </td>
